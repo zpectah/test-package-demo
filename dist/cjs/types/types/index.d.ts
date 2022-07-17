@@ -1,3 +1,1 @@
-declare module 'test-package-rollup' {
-    type someType = {};
-}
+export declare type someType = {};
