@@ -34,8 +34,8 @@ export default [
     },
     {
         input: [
+            "src/index.d.ts",
             "dist/esm/types/index.d.ts",
-            "src/test-package-rollup.d.ts"
         ],
         output: [
             {
