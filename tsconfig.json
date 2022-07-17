@@ -14,8 +14,12 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./dist",
+    "noImplicitAny": false,
   },
-  "include": ["src"],
+  "include": [
+    "src/**/*",
+    "index.d.ts",
+  ],
   "exclude": [
     "dist",
     "node_modules",
