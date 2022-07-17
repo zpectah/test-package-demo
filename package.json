@@ -4,9 +4,9 @@
   "author": "zpecter.com",
   "license": "MIT",
   "private": true,
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "test": "jest"

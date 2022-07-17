@@ -33,9 +33,16 @@ export default [
         external: ["react", "react-dom"]
     },
     {
-        input: "dist/esm/types/index.d.ts",
+        input: [
+            "dist/esm/types/index.d.ts",
+            "src/test-package-rollup.d.ts"
+        ],
         output: [
-            { file: "dist/index.d.ts", format: "esm" },
+            {
+                // file: "dist/index.d.ts",
+                dir: "dist/",
+                format: "esm",
+            },
         ],
         plugins: [dts()],
     },
