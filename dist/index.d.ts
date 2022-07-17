@@ -2,6 +2,6 @@
 declare type TestComponentProps = {};
 declare const TestComponent: () => JSX.Element;
 
-declare const test: {};
+declare const test: object;
 
 export { TestComponent, TestComponentProps, test };
