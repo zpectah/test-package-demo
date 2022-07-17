@@ -17,8 +17,7 @@
     "noImplicitAny": false,
   },
   "include": [
-    "src/**/*",
-    "index.d.ts",
+    "src",
   ],
   "exclude": [
     "dist",
