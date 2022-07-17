@@ -1,2 +1,2 @@
-import*as e from"react";const t=()=>e.createElement("div",null,"TestComponent"),o={};export{t as TestComponent,o as test};
+import*as e from"react";var t=function(){return e.createElement("div",null,"TestComponent")},r={};export{t as TestComponent,r as test};
 //# sourceMappingURL=index.js.map

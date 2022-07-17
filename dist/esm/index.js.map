@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":["../../src/components/TestComponent/TestComponent.tsx","../../src/index.ts"],"sourcesContent":[null,null],"names":["TestComponent","React","createElement","test"],"mappings":"wBAIM,MAAAA,EAAgB,IAGdC,EAEMC,cAAA,MAAA,KAAA,iBCLDC,EAAO,CAAA"}
+{"version":3,"file":"index.js","sources":["../../src/components/TestComponent/TestComponent.tsx","../../src/index.ts"],"sourcesContent":[null,null],"names":["TestComponent","React","createElement","test"],"mappings":"wBAIA,IAAMA,EAAgB,WAElB,OACIC,EAEMC,cAAA,MAAA,KAAA,gBAEd,ECPaC,EAAO,CAAA"}
