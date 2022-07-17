@@ -1,3 +1,4 @@
+/// <reference types="react" />
 declare type TestComponentProps = {};
 declare const TestComponent: () => JSX.Element;
 

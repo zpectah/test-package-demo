@@ -8,13 +8,14 @@
     "declaration": true,
     "declarationDir": "types",
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "./dist",
     "moduleResolution": "node",
     "emitDeclarationOnly": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./dist",
-    "noImplicitAny": false,
+    "noImplicitAny": true,
+    "typeRoots": ["./node_modules/@types"]
   },
   "include": [
     "src",
