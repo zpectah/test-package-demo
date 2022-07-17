@@ -42,4 +42,14 @@ export default [
         ],
         plugins: [dts()],
     },
+    {
+        input: "src/types/types.d.ts",
+        output: [
+            {
+                file: "dist/types.d.ts",
+                format: "esm",
+            },
+        ],
+        plugins: [dts()],
+    },
 ];
