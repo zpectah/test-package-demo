@@ -1,3 +1,1 @@
-import './types';
-export * from './components';
-export declare const test: {};
+export declare type someType = {};
