@@ -1,9 +1,10 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./",
     "outDir": "./dist",
-    "module": "ESNext",
+    "module": "esnext",
+    "target": "es6",
     "declarationDir": "./types",
     "sourceMap": true,
     "declaration": true,
@@ -25,7 +26,11 @@
     "strictFunctionTypes": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
-    "typeRoots": ["./node_modules/@types"]
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["es2015", "dom"],
+    "paths": {
+      "test-package-rollup": ["types/test-package-rollup"],
+    }
   },
   "include": [
     "./src/**/*",
