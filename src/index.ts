@@ -1,4 +1,4 @@
-import './index';
+import './types';
 
 export * from './components';
 
