@@ -8,6 +8,7 @@
     "sourceMap": true,
     "declaration": true,
     "moduleResolution": "node",
+    "emitDeclarationOnly": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "noEmit": true,
