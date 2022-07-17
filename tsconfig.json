@@ -1,10 +1,9 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist",
+    "baseUrl": ".",
+    "outDir": "./",
     "module": "esnext",
-    "declarationDir": "types",
     "sourceMap": true,
     "declaration": true,
     "moduleResolution": "node",
@@ -26,8 +25,8 @@
     "strictFunctionTypes": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
-    "typeRoots": ["./node_modules/@types"],
-    "lib": ["es2015", "dom"],
+    "typeRoots": ["./node_modules/@types", "./src/index.d.ts", "./src/types"],
+    "lib": ["es2015", "dom", "dom.iterable", "es2015.collection"],
   },
   "include": [
     "./src/**/*",

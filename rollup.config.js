@@ -35,12 +35,12 @@ export default [
     {
         input: [
             "src/index.d.ts",
-            "dist/esm/types/index.d.ts",
+            // "dist/esm/types/index.d.ts",
         ],
         output: [
             {
-                // file: "dist/index.d.ts",
-                dir: "dist/",
+                file: "dist/index.d.ts",
+                // dir: "dist",
                 format: "esm",
             },
         ],
