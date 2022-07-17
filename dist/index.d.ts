@@ -1,3 +1,7 @@
-declare type someType = {};
+/// <reference types="react" />
+declare type TestComponentProps = {};
+declare const TestComponent: () => JSX.Element;
 
-export { someType };
+declare const test: {};
+
+export { TestComponent, TestComponentProps, test };
