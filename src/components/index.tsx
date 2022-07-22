@@ -1,4 +1,3 @@
-export * from './common';
 export * from './Action';
 // export * from './Content';
 export * from './Data';
